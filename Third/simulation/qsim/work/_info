@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\AlteraProjects\from_lipova\Third\simulation\qsim
+vBO
+Z1 ILFHKn>iY0R9c4RTiU1j?L0
+Z2 VD`CiF=<Nk;RASd6UaF@De1
+Z3 dD:\AlteraProjects\from_lipova\Third\simulation\qsim
+Z4 w1700411825
+Z5 8Third.vo
+Z6 FThird.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Third.vo|
+Z9 o-work work -O0
+n@b@o
+!i10b 1
+Z10 !s100 hCzD34BhS>ozmaOmFdIMa2
+!s85 0
+Z11 !s108 1700411827.715000
+Z12 !s107 Third.vo|
+!s101 -O0
+vBO_vlg_check_tst
+!i10b 1
+!s100 1IK^ib_iT>LZOFc4X_P^G3
+ICzmWB^WNmcQVC7A@Xg7;H3
+Z13 VI5Z_3MneAe2zIh6g1Udd70
+R3
+Z14 w1700411821
+Z15 8test_for_bo.vwf.vt
+Z16 Ftest_for_bo.vwf.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1700411828.050000
+Z18 !s107 test_for_bo.vwf.vt|
+Z19 !s90 -work|work|test_for_bo.vwf.vt|
+!s101 -O0
+R9
+Z20 n@b@o_vlg_check_tst
+vBO_vlg_sample_tst
+!i10b 1
+Z21 !s100 XD9c[bPm7cFc6DMkmZdNe2
+Z22 IKd17:L^G4>ZSWnPW1aG7i1
+Z23 VCQ=Y?W^X3^c<=j3jZD2CL0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z24 n@b@o_vlg_sample_tst
+vBO_vlg_vec_tst
+!i10b 1
+!s100 _0kWB]S4?cb]`J>Z>1;g51
+IeY:IVSY>8TE[>?G9zb<b]1
+Z25 V00nB7Ra`z0<BXLR6=`]I00
+R3
+R14
+R15
+R16
+L0 437
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z26 n@b@o_vlg_vec_tst

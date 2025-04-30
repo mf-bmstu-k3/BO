@@ -1,0 +1,61 @@
+
+
+D:/AlteraProjects/from_lipova/First/rb.vhd
+
+Nov 19 12PM:54:49>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+rb.tdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+D:/AlteraProjects/from_lipova/First/rb.vhd
+
+Nov 19 12PM:57:35>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+rb.tdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+D:/AlteraProjects/from_lipova/First/rb.vhd
+
+Nov 19 01PM:01:29>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+rb.tdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+D:/AlteraProjects/from_lipova/First/rb.vhd
+
+Nov 19 01PM:06:18>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+rb.tdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+D:/AlteraProjects/from_lipova/First/Rb.vhd
+
+Nov 19 01PM:09:46>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+rb.tdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?

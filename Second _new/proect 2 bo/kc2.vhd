@@ -1,0 +1,47 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    11:39:47 12/20/2008 
+-- Design Name: 
+-- Module Name:    kc2 - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+---- Uncomment the following library declaration if instantiating
+---- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity kc2 is
+generic (n:integer);     -- n параметр, задает разрядность операндов
+    Port ( b : in  STD_LOGIC_VECTOR (n-1 downto 0); -- вход второго операнда
+           a : in  STD_LOGIC_VECTOR (2*n-1 downto 0); -- вход с регистра результата
+           q : out  STD_LOGIC_VECTOR (2*n-1 downto 0); -- выход на сумматор
+           s : in  STD_LOGIC); -- управляющий сигнал
+end kc2;
+
+architecture Behavioral of kc2 is
+
+begin
+q(2*n-1 downto n)<=a(2*n-1 downto n) when s='1' else
+			(others=>b(n-1));
+			
+q(n-1 downto 0)<=a(n-1 downto 0) when s='1' else
+			b;
+end Behavioral;
+

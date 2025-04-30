@@ -1,0 +1,59 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    19:53:58 12/19/2008 
+-- Design Name: 
+-- Module Name:    kc3 - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+---- Uncomment the following library declaration if instantiating
+---- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+--kc3_mem вычисляет признак результата и сохраняет его по y[10]
+
+entity kc3_mem is
+generic (n:integer);     -- n параметр, задает разрядность операндов
+    Port ( a : in  integer range 0 to (2**(n+1))-1;-- разряды результата
+			  clk : in  STD_LOGIC;-- синхросигнал
+			  ce  : in  STD_LOGIC;-- разрешение приема
+           f3: out bit; -- признак отрицательного нуля
+           d : out  STD_LOGIC_VECTOR (1 downto 0)); -- признак результата
+end kc3_mem;
+architecture Behavioral of kc3_mem is
+signal pr: std_lOGIC_VECTOR(1 downto 0); -- признак результата
+begin
+
+	pr<="00" when a=0 else -- результат равен нулю
+		"10" when a< 2**(n-1) else -- результат больше 0
+		"11" when a< (2**n)+2**(n-1) else -- переполнение
+		"01"; -- результат меньше 0
+	f3<= '1' when a=(2**(n+1))-1 else -- признак отрицательного нуля
+			'0'; -- иначе ноль
+	
+process(clk)
+begin
+	if clk'event and clk='1' then -- по положительному фронту 
+		if ce='1' then d<=pr; -- запоминаем признак результата
+		end if;
+	end if;
+end process;
+end Behavioral;
+
+

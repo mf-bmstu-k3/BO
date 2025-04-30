@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\AlteraProjects\from_lipova\Second\simulation\qsim
+vblok_oper
+Z1 !s100 LEDdg<]eZK`j??[i?I]^V3
+Z2 IjUKNl[7n^aL98ZQEMSZn@0
+Z3 VC@Mj3Y;IIIfH^W<DjO?Im0
+Z4 dD:\AlteraProjects\from_lipova\Projects_BO\Second\simulation\qsim
+Z5 w1728502209
+Z6 8SecondScheme.vo
+Z7 FSecondScheme.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|SecondScheme.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1728502211.220000
+Z12 !s107 SecondScheme.vo|
+!s101 -O0
+vblok_oper_vlg_check_tst
+!i10b 1
+Z13 !s100 7[3;ZGzD8DZ3=a2bDQEk81
+Z14 I3ncH;S>USZfKfZ2]g`BGG2
+Z15 VlP_hBacb;7>T=;?ATM`NS0
+R4
+Z16 w1728502207
+Z17 8test_for_bo.vwf.vt
+Z18 Ftest_for_bo.vwf.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1728502211.491000
+Z20 !s107 test_for_bo.vwf.vt|
+Z21 !s90 -work|work|test_for_bo.vwf.vt|
+!s101 -O0
+R10
+vblok_oper_vlg_sample_tst
+!i10b 1
+Z22 !s100 ZVCC<`K=G2MgZ8F6Ui=EZ2
+Z23 IhWeFijz^Eb6LECXdfdag;1
+Z24 VmUWOD88oPoNYNWQDdU1Oz3
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vblok_oper_vlg_vec_tst
+!i10b 1
+Z25 !s100 CY[2Z9S[bMf6[n<=::2Kk2
+Z26 IQ8>Zgz0dh>jBiohF`2mEF2
+Z27 Vj]Pi5lWDlo6IdW;687^lj3
+R4
+R16
+R17
+R18
+Z28 L0 456
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
